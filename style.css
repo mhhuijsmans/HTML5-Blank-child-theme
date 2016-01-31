@@ -1,0 +1,134 @@
+/*
+ Theme Name:    HTML  5  Blank  Child
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Twenty Fourteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     html5blank-stable
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+
+a {
+	text-decoration: underline;
+}
+
+.ajax-loader {
+	display: none;
+}
+
+body {
+	background-color: #E0F0B2;
+	background-image: url("/wordpress/wp-content/uploads/2014/11/skulls.png");
+	background-attachment: fixed;
+	font-family: 'Raleway', sans-serif;
+	overflow-y: scroll;
+	height: 10em;
+	position: relative;
+	top: -5em;
+}
+
+.footer {	
+	height: 10em;
+	padding: 5em 0 0;
+	overflow: hidden;
+}
+
+h1, h2 {
+	font-family: 'Droid Serif', serif;
+}
+
+.hamsternav {
+	width: 50em;
+	position: relative;
+	left: -2em;
+}
+
+.hamsternav:hover {
+	opacity: 0.5;
+}
+
+header, main, footer {
+	width: 50em;
+	text-align: center;
+	background-color: rgba(255,255,255,0.2); /* #C8D69F */	
+}
+
+header, footer {
+	margin: 0 auto;
+}
+
+.foto {
+	width: 50em;
+	position: relative;
+	left: -2em;
+	margin-top: 1em;
+}
+
+main {
+	margin: 2.5em auto 0;
+	padding-top: 1.5em;
+}
+
+.metaslider .caption {
+	transform:scale(1.63,1);
+	opacity: 0.4;
+	overflow: hidden;
+}
+
+.metaslider .caption-wrap {
+	font-family: 'Oswald', sans-serif;
+	background: none !important;
+	font-size: 6em;
+	line-height: 0.5em !important;
+}
+
+nav {
+	background-color: #A4B083;
+	width: 50em;
+	height: 3em;
+	margin: -1em auto -2.5em;
+}
+
+nav ul li {
+	display: inline;
+	margin-bottom: 4em;
+	text-align: center;
+}
+
+nav ul li:nth-of-type(1) {
+	margin-left: -3.6em;
+}
+
+nav ul li a {
+	display: inline-block;
+	height: 3em;
+	line-height: 3em;
+	width: 8.1em;
+	color: #fff;
+	background-color: #A4B083;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	background-color: #C8D69F;
+}
+
+p {
+	margin: 0 2em;
+}
+
+.poest-360 {
+	height: 20em;
+}
+
+.sidebar {
+	display: none;
+}
